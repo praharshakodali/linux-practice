@@ -1,3 +1,4 @@
+#!/data/data/com.termux/files/usr/bin/env p
 import getpass
 import hashlib
 import sys
@@ -24,7 +25,7 @@ else:
 
     try:
         open(prefix + "/etc/motd")
-motd = True
+        motd = True
     except:
         motd = False
 
